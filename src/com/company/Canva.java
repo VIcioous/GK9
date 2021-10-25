@@ -37,8 +37,8 @@ public class Canva extends JPanel {
     }
 
     private void countPercentageOfColor() {
-        //double percentage =
-        NewWindow window = new NewWindow(imageAnalyzer.countPercentage(imageJPG));
+        double result = imageAnalyzer.countPercentage(imageJPG);
+        System.out.println(result);
     }
 
     private void readFile(String text) {
